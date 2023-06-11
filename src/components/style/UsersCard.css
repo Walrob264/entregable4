@@ -1,0 +1,75 @@
+.Containt_card {
+  width: 100%;
+  display: grid;
+  padding: 1em;
+  grid-template-rows: repeat(auto-fit, minmax(300px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));
+  justify-items: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 350px;
+  border: 2px solid #ccc;
+  padding: 1em;
+  min-width: 350px;
+
+  border-radius: 10px;
+}
+.title_card {
+  margin-top: 0.2em;
+  color: rgb(5, 5, 63);
+}
+.list_card {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 0;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+.info_card-Dates {
+  margin: 0;
+  color: #ccc;
+  font-weight: 100;
+}
+.info_card_dates-user {
+  padding-bottom: 2em;
+}
+.info_card_dates-user > i {
+  padding-right: 0.5em;
+}
+.containt_button {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding-top: 3em;
+  gap: 1em;
+}
+.button_trash {
+  background-color: rgb(219, 98, 98);
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5em;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+.button_edit {
+  background-color: #dbdbdbaf;
+  border: 1px solid #ccc;
+  color: #ccc;
+  font-size: 1.5rem;
+  padding: 0.5em;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+@media (min-width: 500px) {
+  .Containt_card {
+    grid-template-columns: repeat(auto-fit, minmax(475px, 3fr));
+  }
+}

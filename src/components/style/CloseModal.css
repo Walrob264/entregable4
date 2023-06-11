@@ -1,0 +1,68 @@
+.modal-container_delete {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  position: fixed;
+  background-color: #0004;
+  backdrop-filter: blur(2px);
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal_close-delete {
+  transform: scale(0);
+}
+.Delete_containt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-color: white;
+  min-width: 320px;
+  max-width: 600px;
+  height: 30%;
+  width: 50%;
+  position: relative;
+}
+.body_modal-delete {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bx-x {
+  position: absolute;
+  font-size: 2rem;
+  top: 1em;
+  right: 1em;
+  cursor: pointer;
+}
+.bx-x:hover {
+  color: rgb(97, 97, 182);
+}
+.title_Delete-User {
+  color: rgb(10, 10, 70);
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+.p_deleteUser {
+  color: rgb(10, 10, 70);
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.user {
+  color: rgb(3, 3, 54);
+  font-weight: 700;
+}
+.button_for_delete {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  border: none;
+  background-color: rgb(97, 97, 182);
+  padding: 0.5em;
+  cursor: pointer;
+}
