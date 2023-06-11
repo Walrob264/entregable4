@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import "./style/closeModal.css";
+import "src/style/closeModal.css";
 
 const closeModal = ({
   deletinfo,
