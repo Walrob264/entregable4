@@ -11,7 +11,7 @@ function App() {
   const [isCloseModalDelete, setIsCloseModalDelete] = useState(true);
   const [deletinfo, setDeletinfo] = useState(undefined);
 
-  const baseUrl = "https://users-crud.academlo.tech/";
+  const baseUrl = "https://users-crud-test-6mxf.onrender.com/api/v1/";
   const [users, getAllUser, createNewUser, deleteUserById, updateUserById] =
     useFetch(baseUrl);
   useEffect(() => {
